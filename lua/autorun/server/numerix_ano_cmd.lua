@@ -13,7 +13,7 @@ hook.Add("PlayerSay", "PlayerSay:AnoCommande", function(ply, txt)
 			else
 				DarkRP.talkToPerson(v, Color(0, 0, 0, 255),  "[Anonyme] " , Color(255, 255, 0, 255), message, ply) 
 			end
-        end
-        return ""
+        	end
+        	return ""
 	end
 end)
